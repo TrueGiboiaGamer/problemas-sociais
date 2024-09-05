@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário sobre Problemas Sociais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Questionário sobre Problemas Sociais</h1>
+    
+    <form id="quiz-form">
+        <div class="question">
+            <p>1. Qual é uma das principais causas da desigualdade social?</p>
+            <div class="options">
+                <label><input type="radio" name="q1" value="a"> A) Acesso desigual à educação</label><br>
+                <label><input type="radio" name="q1" value="b"> B) Aumento na expectativa de vida</label><br>
+                <label><input type="radio" name="q1" value="c"> C) Crescimento da tecnologia</label><br>
+                <label><input type="radio" name="q1" value="d"> D) Redução das taxas de natalidade</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>2. Qual desses fatores é frequentemente associado ao aumento da pobreza em áreas urbanas?</p>
+            <div class="options">
+                <label><input type="radio" name="q2" value="a"> A) Baixa densidade populacional</label><br>
+                <label><input type="radio" name="q2" value="b"> B) Alta qualidade das infraestruturas</label><br>
+                <label><input type="radio" name="q2" value="c"> C) Desemprego elevado</label><br>
+                <label><input type="radio" name="q2" value="d"> D) Alta escolaridade da população</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>3. Qual é um dos principais desafios enfrentados pelos refugiados em países de acolhimento?</p>
+            <div class="options">
+                <label><input type="radio" name="q3" value="a"> A) Acesso a tratamentos de saúde especializados</label><br>
+                <label><input type="radio" name="q3" value="b"> B) Integração social e cultural</label><br>
+                <label><input type="radio" name="q3" value="c"> C) Aumento de oportunidades de emprego em áreas rurais</label><br>
+                <label><input type="radio" name="q3" value="d"> D) Disponibilidade de tecnologia avançada</label>
+            </div>
+        </div>
+
+        <button type="button" onclick="submitQuiz()">Enviar</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
